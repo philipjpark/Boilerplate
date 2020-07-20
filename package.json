@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "\"React and Express Boilerplate\"",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  
+  },
+  "devDependencies": {  
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipjpark/Boilerplate.git"
+  },
+  "author": "Philip Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipjpark/Boilerplate/issues"
+  },
+  "homepage": "https://github.com/philipjpark/Boilerplate#readme"
+}
